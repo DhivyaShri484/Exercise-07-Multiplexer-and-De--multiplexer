@@ -68,7 +68,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 ### RegisterNumber: 21221240035 
 */
 ~~~~
-# 4 X 1 Multiplexer
+### 4 X 1 Multiplexer
 
 module EX7(i0,i1,i2,i3,s0,s1,y);
 input i0,i1,i2,i3,s0,s1;
@@ -83,7 +83,7 @@ and(s,s0,s1,i3);
 or(y,p,q,r,s);
 endmodule
 
-# 1 X 4 De-Multiplexer
+### 1 X 4 De-Multiplexer
 
 module EX7_2(y0,y1,y2,y3,s0,s1,i);
 input s0,s1,i;
@@ -101,7 +101,8 @@ endmodule
 
 ### RTL LOGIC  
 ### 4 X 1 Multiplexer
-<img width="960" alt="k" src="https://user-images.githubusercontent.com/94154679/201976024-aeaba54e-bf75-422b-9c7b-ee5e29f7e75b.png")
+<img width="960" alt="0" src="https://user-images.githubusercontent.com/94154679/201977390-50fedd00-5474-47b5-a1f0-42b046a6b7fb.png">
+
 ### TIMING DIGRAMS
 ![e](https://user-images.githubusercontent.com/94154679/201976339-5888097c-9832-40d4-9e7d-0af3f041813d.jpeg)
 
@@ -114,7 +115,7 @@ endmodule
 ### TRUTH TABLE 
 ![j](https://user-images.githubusercontent.com/94154679/201976423-914308cb-6889-484a-b470-c775641ffdb6.png)
 
-1 X 4 Multiplexer
+### 1 X 4 Multiplexer
 <img width="750" alt="l" src="https://user-images.githubusercontent.com/94154679/201976446-9289c067-23cd-49b5-83c2-ac55b64d6790.png">
 
 ### TIMING DIGRAMS
